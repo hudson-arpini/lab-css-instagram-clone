@@ -1,0 +1,5 @@
+linear-gradient(180deg, rgba(28,83,128,1) 0%, rgba(6,54,95,1) 81%);
+
+
+
+background: linear-gradient(0deg, white 70%, #1c5380 30%);

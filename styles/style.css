@@ -3,8 +3,97 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+body{
+    height: 100%;
+    background: rgb(28,83,128);
+    background: linear-gradient(180deg, rgba(28,83,128,1) 0%, rgba(6,54,95,1) 40%, rgba(255,255,255,1) 40%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.rightsection{
+  width: 500px;
+  margin: 95px 200px 50px 30px;
+}
+.phones{
+  margin: 80px 30px 50px 200px
+}
+.logoandloginbutton{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.loginbutton{
+  width: 100px;
+  height: 40px;
+  color: white;
+  background: linear-gradient(180deg, rgba(28,83,128,1) 37%, rgba(6,54,95,1) 92%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-width: 0;
+  border-radius: 5px;
+  font-family: Helvetica;
 
-body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+}
+.mainsection{
+  background-image: url(../images/frame.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+h2{
+  color: #1c5380;
+  width: 300px;
+  font-size: 29px;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-content: flex-start;
+  gap: 30px;
+}
+.appstore{
+  background-image: url(../images/badge-iphone.png);
+  background-repeat: no-repeat;
+  width: 164px;
+  height: 50px;
+  border-width: 0;
+  border-radius: 5px;
+}
+.googleplay{
+  background-image: url(../images/badge-android.png);
+  background-repeat: no-repeat;
+  width: 155px;
+  height:50px;
+  border-width: 0;
+  border-radius: 5px;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  width: 750px;
+}
+a{
+  color: #1c5380;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
 }
